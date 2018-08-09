@@ -8,7 +8,19 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- Define your beans here -->
+
+    <!-- Used for inversion of control examples -->
     <bean id="myCar" class="lt.taquehara.inversionofcontrol.Car"></bean>
     <bean id="myTruck" class="lt.taquehara.inversionofcontrol.Truck"></bean>
 
+
+
+    <!-- Used for dependency of injection examples -->
+    <!-- dependency -->
+    <bean id="myBlogger" class="lt.taquehara.dependencyofinjection.constructor.Blogger"></bean>
+
+    <bean id="myPost" class="lt.taquehara.dependencyofinjection.constructor.BlogPost">
+        <!-- constructor injection -->
+        <constructor-arg ref="myBlogger"/>
+    </bean>
 </beans>
