@@ -17,4 +17,14 @@ public class BlogPost implements Article {
     public void displayAuthorDescription() {
         author.displayDescription();
     }
+
+    @Override
+    public void setTitle(String title) {
+       this.title = title;
+    }
+
+    @Override
+    public String getTitle() {
+       return title;
+    }
 }

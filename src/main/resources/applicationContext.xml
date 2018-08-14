@@ -31,5 +31,6 @@
     <bean id="myPost2" class="lt.taquehara.dependencyofinjection.setter.BlogPost">
         <!-- setter injection -->
         <property name="blogger" ref="myBlogger2" />
+        <property name="title"  value="Introduction to DOI" />
     </bean>
 </beans>

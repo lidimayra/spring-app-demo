@@ -12,6 +12,9 @@ public class App {
         article.displayContent();
         article.displayAuthorDescription();
 
+        String title = article.getTitle();
+        System.out.println(title);
+
         context.close();
     }
 }
