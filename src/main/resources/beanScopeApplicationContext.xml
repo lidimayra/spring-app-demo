@@ -7,5 +7,6 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="myCar" class="lt.iocdoixmlconfiguration.inversionofcontrol.Car"></bean>
+    <bean id="singletonCar" class="lt.iocdoixmlconfiguration.beanscope.Car"></bean>
+    <bean id="prototypeCar" class="lt.iocdoixmlconfiguration.beanscope.Car" scope="prototype"></bean>
 </beans>
