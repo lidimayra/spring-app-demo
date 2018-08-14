@@ -1,4 +1,4 @@
-package lt.taquehara.dependencyofinjection.constructor;
+package lt.iocdoixmlconfiguration.dependencyofinjection.constructor;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

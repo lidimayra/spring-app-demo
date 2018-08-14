@@ -1,4 +1,4 @@
-package lt.taquehara.springappdemo;
+package lt.springappdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

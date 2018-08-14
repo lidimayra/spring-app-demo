@@ -1,4 +1,4 @@
-package lt.taquehara.dependencyofinjection.constructor;
+package lt.iocdoixmlconfiguration.dependencyofinjection.constructor;
 
 public interface Article {
     public void displayContent();

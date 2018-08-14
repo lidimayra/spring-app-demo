@@ -1,4 +1,4 @@
-package lt.taquehara.dependencyofinjection.setter;
+package lt.iocdoixmlconfiguration.dependencyofinjection.setter;
 
 public class BlogPost implements Article {
     private Author author;

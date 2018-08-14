@@ -1,4 +1,4 @@
-package lt.taquehara.dependencyofinjection.setter;
+package lt.iocdoixmlconfiguration.dependencyofinjection.constructor;
 
 public class Blogger implements Author {
 

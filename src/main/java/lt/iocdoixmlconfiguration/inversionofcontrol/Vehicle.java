@@ -1,4 +1,4 @@
-package lt.taquehara.inversionofcontrol;
+package lt.iocdoixmlconfiguration.inversionofcontrol;
 
 public interface Vehicle {
 

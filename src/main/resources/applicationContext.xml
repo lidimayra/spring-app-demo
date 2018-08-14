@@ -11,16 +11,16 @@
     <context:property-placeholder location="classpath:post.properties"/>
 
     <!-- Used for inversion of control examples -->
-    <bean id="myCar" class="lt.taquehara.inversionofcontrol.Car"></bean>
-    <bean id="myTruck" class="lt.taquehara.inversionofcontrol.Truck"></bean>
+    <bean id="myCar" class="lt.iocdoixmlconfiguration.inversionofcontrol.Car"></bean>
+    <bean id="myTruck" class="lt.iocdoixmlconfiguration.inversionofcontrol.Truck"></bean>
 
 
 
     <!-- Used for dependency of injection examples with constructor -->
     <!-- dependency -->
-    <bean id="myBlogger" class="lt.taquehara.dependencyofinjection.constructor.Blogger"></bean>
+    <bean id="myBlogger" class="lt.iocdoixmlconfiguration.dependencyofinjection.constructor.Blogger"></bean>
 
-    <bean id="myPost" class="lt.taquehara.dependencyofinjection.constructor.BlogPost">
+    <bean id="myPost" class="lt.iocdoixmlconfiguration.dependencyofinjection.constructor.BlogPost">
         <!-- constructor injection -->
         <constructor-arg ref="myBlogger"/>
     </bean>
@@ -29,9 +29,9 @@
 
     <!-- Used for dependency of injection examples with setter -->
     <!-- dependency -->
-    <bean id="myBlogger2" class="lt.taquehara.dependencyofinjection.setter.Blogger"></bean>
+    <bean id="myBlogger2" class="lt.iocdoixmlconfiguration.dependencyofinjection.setter.Blogger"></bean>
 
-    <bean id="myPost2" class="lt.taquehara.dependencyofinjection.setter.BlogPost">
+    <bean id="myPost2" class="lt.iocdoixmlconfiguration.dependencyofinjection.setter.BlogPost">
         <!-- setter injection -->
         <property name="blogger" ref="myBlogger2" />
         <property name="title"  value="${post.title}" />

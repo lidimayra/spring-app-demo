@@ -1,4 +1,4 @@
-package lt.taquehara.dependencyofinjection.constructor;
+package lt.iocdoixmlconfiguration.dependencyofinjection.constructor;
 
 public class BlogPost implements Article {
     private Blogger blogger;

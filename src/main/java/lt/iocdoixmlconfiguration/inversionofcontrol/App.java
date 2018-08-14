@@ -1,4 +1,4 @@
-package lt.taquehara.dependencyofinjection.setter;
+package lt.iocdoixmlconfiguration.inversionofcontrol;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -7,13 +7,8 @@ public class App {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-
-        Article article = context.getBean("myPost2", Article.class);
-        article.displayContent();
-        article.displayAuthorDescription();
-
-        String title = article.getTitle();
-        System.out.println(title);
+        Vehicle vehicle = context.getBean("myTruck", Vehicle.class);
+        vehicle.move();
 
         context.close();
     }
