@@ -10,6 +10,9 @@ public class App {
         Vehicle vehicle = context.getBean("myCar", Vehicle.class);
         vehicle.move();
 
+        vehicle = context.getBean("truck", Vehicle.class);
+        vehicle.move();
+
         context.close();
     }
 }
